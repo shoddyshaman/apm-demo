@@ -1,5 +1,7 @@
 const express = require('express')
 const path = require('path')
+const Rollbar = require('rollbar')
+
 const rollbar = new Rollbar({
     accessToken: 'd0cb15f19f2b404f9cb5e35fbd8b845a',
     captureUncaught: true,
